@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 100;
+    font-weight: 400;
     font-style: normal;
     color: #393d39;
 }
@@ -15,19 +15,19 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-style: initial;
     color: #25a2c3;
-    font-weight: 1.2em;
+    font-weight: 1.2rem;
 }
 
 .separatori {
-    border: 1px solid white;
+    border: 1px solid #dee1e3;
     display: block;
     margin: 0 auto;
     box-sizing: border-box;
     width: 90%;
     background-color: white;
-
-
 }
+
+
 
 header div {
     position: relative;
@@ -42,21 +42,42 @@ div img {
     padding-top: 30px;
 }
 
-main {
-    background-image: url(/assets/img/banner.jpg);
+main{
     background-size: cover;
+    background-image: url(/assets/img/banner.jpg);
     background-repeat: no-repeat;
+    background-position: 100%;
+    
 }
 
-button {
-    border: none;
-    color: rgb(236, 140, 14);
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
+input {
+    background-color: #f04c2f;
+    font-family: 'Monserrat';
+    color: white;
+}
+main aside{
+    background-color: white;
+    padding-top: 10px;
+}
+.notebook img {
+clip-path: circle(50%);
+width: 250px;
+  height: 250px;
+}
+.rosso{
+    background-color: red;
+}
+.rosso h4 {
+    color: white;
+}
+.rosso p {
+    color: white;
+}
+.rosso i{
+    color: white;
+}
+.foto {
+  max-width: 100%;
+  height: auto;
+  object-fit: none;
 }
