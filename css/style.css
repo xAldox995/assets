@@ -33,11 +33,12 @@ header div {
     display: block;
     width: 100%;
     background-color: black;
-    padding: 100%;
+    padding-bottom: 50px;
 }
 
 div img {
     width: 28%;
+    padding-top: 30px;
 }
 
 main {
